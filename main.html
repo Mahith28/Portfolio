@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<img src="background.jpg"
+     style="position: fixed; top:0; left:0; width:100%; height:100%; object-fit: cover; z-index: -1;">
+
+<!-- Navbar -->
+<header>
+    <h2>Mahith</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Home -->
+<section id="home">
+    <div class="container">
+        <h1 style="color:cyan;">Thodupunuri Mahith</h1>
+        <p>Student at Amrita Vishwa Vidyapeetham</p>
+
+        <a href="#projects" class="btn">View Projects</a>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+
+        <p>
+            B.Tech student in Artificial Intelligence and Data Science with a strong foundation in programming, 
+            data analysis, and problem-solving.
+        </p>
+        
+        <p>
+            I have interest in machine learning and data-driven technologies. 
+            I enjoy analyzing data and building intelligent solutions.
+        </p>
+
+        <p>
+            I am also interested in entrepreneurship and innovation, aiming to create impactful real-world solutions.
+        </p>
+
+        <a href="resume.pdf" download class="btn">Download Resume</a>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <div class="container">
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">C Programming</div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="card">
+                <img src="delivery_robot.jpg">
+                <h3>Hospital Delivery Robot</h3>
+                <p>
+                    A MATLAB-based robot using A* algorithm and reactive control for safe navigation and obstacle handling.
+                </p>
+                <a href="https://github.com/Mahith28/Hospital-Delivery-Robot" target="_blank" class="btn" style="background-color: black; color: white; border: 2px black;">
+                    View Project
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="library_managment_system.jpg">
+                <h3>Library Management System</h3>
+                <p>
+                    Java Swing desktop app with Admin and Student panels using OOP and CSV storage.
+                </p>
+                <a href="https://github.com/Mahith28/Library-Managment-System" target="_blank" class="btn" style="background-color: black; color: white; border: 2px black;">
+                    View Project
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="social-links">
+        <a href="https://github.com/Mahith28" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mahith-thodupunuri-a79737334/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:mahiththodupunuri@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+</footer>
+
+</body>
+</html>
